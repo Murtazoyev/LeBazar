@@ -1,0 +1,732 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+       /*header begin*/
+        .about-me{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top:50px;
+        }
+        .about-me h2{
+            font-size: 17px!important;
+            margin-top: 70px;
+        }
+        .about-me h4{
+            text-align: center;
+        }
+        .about-me p{
+            text-align: center;
+        }
+        .about-me a{
+            margin-bottom:  70px;
+        }
+        .menu-left{
+            display: none;
+            position: fixed;
+            height: 100%;
+            top: 70px;
+        }
+        .top-banner{
+            width: 100%;
+            background-color: #fff;
+            position: fixed;
+            z-index: 5;
+        }
+        .top-banner-bg-color{
+            background-color: transparent;
+        }
+        .title-page h1 a{
+            color: #000;
+        }
+        .title-page a{
+            color: #000;
+        }
+      /*header end*/
+
+      /*about-me-content begin*/
+       .about-me-text span{
+           line-height: 40px;
+       }
+      .about-me-text .about-button a{
+          font-size: 16px;
+      }
+      /*about-me-content end*/
+
+      /*experience begin*/
+
+      .experience-text h4{
+          font-size: 24px;
+      }
+      .logo-company{
+          margin-top: 25px;
+      }
+
+      /*experience end*/
+
+      /*services begin*/
+      #services-content {
+            padding: 60px 0px 60px 0px;
+      }
+      .marketing1{
+          display: none;
+      }
+      /*services end*/
+
+    /*our-portfolio-content begin*/
+    #our-portfolio-content{
+        padding: 60px 0px 60px 0px;
+    }
+    /*our-portfolio-content end*/
+
+
+    /*clients begin*/
+    #clients-content{
+        padding: 50px 0px 50px 0px;
+    }
+    #clients-content h2{
+        font-size: 24px;
+    }
+    #clients-content h4{
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    .david-text h5{
+        font-size: 14px;
+    }
+    .david-text h6{
+        font-size: 16px;
+    }
+    .david-text i{
+        font-size: 15px;
+    }
+    .numbers-item-logo i{
+        font-size: 45px;
+    }
+    /*clients end*/
+
+    /*blog begin*/
+
+    #blog-content{
+        padding: 50px 0px 30px 0px;
+        background-color: #fff;
+    }
+    .blog-img-name-info h3 {
+        font-size: 18px;
+    }
+    .blog-img-name-info p {
+        font-size: 14px;
+    }
+
+    /*blog end*/
+
+    /*project-mind begin*/
+    #project-mind{
+        padding: 50px 0px 30px 0px;
+    }
+    .project-mind-title h2 {
+        font-size: 25px;
+    }
+    /*project-mind end*/
+    /*get-quate begin*/
+
+    #get-quate{
+        padding:70px 0px 70px 0px;
+        height: 1700px;
+        background-color: #fff;
+    }
+    .get-quate-information{
+        height: 1050px;
+    }
+    .details{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /*get-quate end*/
+
+    /*footer begin*/
+    footer {
+        background-color: #f6f7fd;
+        padding: 50px 0;
+    }
+    .resume-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume-footer p{
+        text-align: center;
+    }
+    .social-media-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*footer end*/
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+
+    /*header begin*/
+    #menu-button{
+        background-color: mediumblue;
+        
+        transition: all .8s ease;
+
+    }
+    #menu-button:hover{
+        background-color: transparent;
+        color: #000;
+        border:1px solid mediumblue;
+    }
+    .menu-left{
+        display: none;
+        position: fixed;
+        height: 100%;
+        top: 70px;
+    }
+    .top-banner{
+        width: 100%;
+        background-color: #fff;
+        position: fixed;
+        z-index: 5;
+    }
+    .top-banner-bg-color{
+        background-color: transparent;
+    }
+    #remove{
+        display: none;
+    }
+    .title-page h1 a{
+             color: #000;
+         }
+    .title-page a{
+        color: #000;
+    }
+
+    /*header end*/
+
+    /*services begin*/
+    #services-content {
+        padding: 60px 0px 60px 0px;
+    }
+    .marketing1{
+        display: none;
+    }
+    /*services end*/
+
+    /*our-portfolio-content begin*/
+    #our-portfolio-content{
+        padding: 60px 0px 60px 0px;
+    }
+    /*our-portfolio-content end*/
+
+
+    /*clients begin*/
+
+    /*clients end*/
+
+    /*get-quate begin*/
+
+    #get-quate{
+        padding:70px 0px 70px 0px;
+        height: 1600px;
+        background-color: #fff;
+    }
+    .get-quate-information{
+        height: 1000px;
+    }
+    /*get-quate end*/
+
+    /*footer begin*/
+    footer {
+        background-color: #f6f7fd;
+        padding: 50px 0;
+    }
+    /*footer end*/
+
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /*header begin*/
+    .menu-left{
+        display: none;
+        position: fixed;
+        height: 100%;
+        top: 70px;
+    }
+    .top-banner{
+        width: 100%;
+        background-color: #fff;
+        position: fixed;
+        z-index: 5;
+    }
+    #menu-button:hover{
+        background-color: transparent;
+        color: #000;
+        border:1px solid mediumblue;
+    }
+    .top-banner-bg-color{
+        background-color: transparent;
+    }
+    #remove{
+        display: none;
+    }
+    .title-page h1 a{
+        color: #000;
+    }
+    .title-page a{
+        color: #000;
+    }
+    #menu-button{
+        background-color: mediumblue;
+        color: #fff;
+        transition: all .8s ease;
+    }
+    /*header end*/
+
+    /*about-me-content begin*/
+    #about-me-content{
+        padding: 40px 0px;
+    }
+    /*about-me-content end*/
+
+    /*experience begin*/
+    #experience {
+        background-color: #f6f7fd;
+        padding: 60px 0 60px 0;
+        border: 2px dashed darkred;
+    }
+    /*experience end*/
+
+    /*services begin*/
+    #services-content {
+        padding: 60px 0px 60px 0px;
+    }
+     .service-block{
+         display: flex;
+         justify-content: space-around;
+     }
+    .md-block{
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .marketing2{
+        display: none;
+    }
+    /*services end*/
+
+    /*our-portfolio-content begin*/
+    #our-portfolio-content{
+        padding: 60px 0px 60px 0px;
+    }
+    /*our-portfolio-content end*/
+
+    /*get-quate begin*/
+
+    #get-quate{
+        padding:70px 0px 70px 0px;
+        height: 1450px;
+        background-color: #fff;
+    }
+    .details{
+        margin-top: 20px;
+    }
+    /*get-quate end*/
+
+    /*footer begin*/
+    footer {
+        background-color: #f6f7fd;
+        padding: 50px 0;
+    }
+    /*footer end*/
+
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+
+    /*header begin*/
+
+    .title-page h1 a{
+        color: #000;
+    }
+    .title-page a{
+        color: #000;
+    }
+    .menu-left{
+        display: none;
+        position: fixed;
+        height: 100%;
+        top: 70px;
+     }
+    .top-banner{
+        width: 100%;
+        background-color: #fff;
+        position: fixed;
+        z-index: 5;
+    }
+    #menu-button:hover{
+        background-color: transparent;
+        color: #000;
+        border:1px solid mediumblue;
+    }
+    .top-banner-bg-color{
+        background-color: transparent;
+    }
+    #remove{
+        display: none;
+    }
+    #menu-button{
+        background-color: mediumblue;
+        color: #fff;
+        transition: all .8s ease;
+    }
+
+    /*header end*/
+    /*about-me-content begin*/
+    #about-me-content{
+        padding: 60px 0px;
+    }
+    /*about-me-content end*/
+    /*services begin*/
+    #services-content {
+        padding: 60px 0px 60px 0px;
+    }
+    .service-block{
+        display: flex;
+        justify-content: space-around;
+    }
+    .md-block{
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .marketing2{
+        display: none;
+    }
+    /*services end*/
+
+    /*our-portfolio-content begin*/
+    #our-portfolio-content{
+        padding: 60px 0px 60px 0px;
+    }
+    /*our-portfolio-content end*/
+
+
+    /*clients begin*/
+
+    /*clients end*/
+    /*get-quate begin*/
+
+    #get-quate{
+        padding:70px 0px 70px 0px;
+        height: 1100px;
+        background-color: #fff;
+    }
+    .details p {
+        font-size: 12px;
+    }
+    /*get-quate end*/
+
+    /*footer begin*/
+    footer {
+        background-color: #f6f7fd;
+        padding: 50px 0;
+    }
+    /*footer end*/
+
+
+}
+/*Extra Large*/
+@media  (min-width: 1200px){
+
+    /*header begin*/
+
+    .menu-left{
+        display: none!important;
+    }
+
+    /*header end*/
+
+    /*services begin*/
+    #services-content {
+        padding: 60px 0px 60px 0px;
+    }
+    .marketing1{
+        display: none;
+    }
+    /*services end*/
+
+    /*footer begin*/
+    footer {
+        background-color: #f6f7fd;
+        padding: 50px 0;
+    }
+    /*footer end*/
+
+}
+
+/*    Qo'shimcha media*/
+
+@media ( max-width: 320px){
+    /*header begin*/
+    .about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .about-me h2{
+        font-size: 14px!important;
+        margin-top: 70px;
+    }
+    .about-me h4{
+        font-size: 40px!important;
+    }
+    .about-me a{
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+    /*header end*/
+
+    /*about-me-content begin*/
+    .about-me-text .about-button a{
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    /*about-me-content end*/
+
+    /*our-portfolio-content begin*/
+    .our-portfolio-title h2 {
+        font-weight: 800;
+        font-size: 38px;
+        margin: 0px;
+    }
+    .types-list li a{
+        font-size: 15px;
+    }
+    /*our-portfolio-content end*/
+
+    /*clients begin*/
+    .numbers-item-logo i{
+        font-size: 30px;
+    }
+    #clients-content h2{
+        font-size: 22px;
+    }
+    .david-text h6{
+        font-size: 10px;
+    }
+    .david-text i{
+        font-size: 9px;
+    }
+    /*clients end*/
+
+    /*blog begin*/
+
+    #blog-content{
+        padding: 50px 0px 30px 0px;
+        background-color: #fff;
+    }
+    .blog-img-name-info h3 {
+        font-size: 16px;
+    }
+    .blog-img-name-info p {
+        font-size: 14px;
+    }
+
+    /*blog end*/
+
+    /*project-mind begin*/
+    .project-mind-title h2 {
+        font-size: 21px;
+    }
+    .project-mind-title p {
+        font-size: 14px;
+    }
+    /*project-mind end*/
+
+    /*get-quate begin*/
+
+    #get-quate{
+        padding:70px 0px 70px 0px;
+        height: 1720px;
+        background-color: #fff;
+    }
+    .get-quate-information{
+        height: 1060px;
+    }
+    .get-quate-title h2{
+        font-size: 38px;
+    }
+    /*get-quate end*/
+
+    /*footer begin*/
+    footer {
+        background-color: #f6f7fd;
+        padding: 30px 0 15px;
+    }
+    /*footer end*/
+
+}
+@media ( max-width: 280px){
+    /*header begin*/
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me h2{
+        font-size: 12px!important;
+        margin-top: 70px;
+    }
+    .about-me h4{
+        font-size: 34px!important;
+    }
+    .about-me a{
+        font-size: 14px;
+        margin-bottom: 70px;
+        padding: 10px 26px;
+    }
+    .menu-left{
+        width: 200px;
+    }
+    #menu-button{
+        font-size: 13px;
+        padding: 10px 11px;
+    }
+    /*header end*/
+
+    /*about-me-content begin*/
+    #about-me-content{
+        padding: 40px 0px;
+    }
+    .about-me-text span a{
+        font-size: 14px;
+    }
+    .about-me-text .about-button a{
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    /*about-me-content end*/
+
+    /*services begin*/
+    .services-title p{
+        text-align: center;
+    }
+    /*services end*/
+
+    /*our-portfolio-content begin*/
+    #our-portfolio-content{
+        padding: 60px 0px 60px 0px;
+    }
+    /*our-portfolio-content end*/
+
+    /*clients begin*/
+    #clients-content h2{
+        font-size: 18px;
+    }
+    .numbers-item-logo h5{
+        font-size: 15px;
+    }
+    .numbers-item-logo h6{
+        font-size: 15px;
+    }
+    .pagination a{
+        display: none!important;
+    }
+    /*clients end*/
+
+    /*blog begin*/
+
+    #blog-content{
+        padding: 50px 0px 30px 0px;
+        background-color: #fff;
+    }
+    .blog-img-name-info h3{
+        font-size: 15px;
+    }
+    .blog-img-name-info p{
+        font-size: 12px;
+    }
+    /*blog end*/
+
+    /*get-quate begin*/
+
+    #get-quate{
+        padding:70px 0px 70px 0px;
+        height: 1670px;
+        background-color: #fff;
+    }
+    .get-quate-information{
+        height: 1020px;
+    }
+   .get-quate-title h2{
+       font-size: 30px;
+   }
+    /*get-quate end*/
+
+    /*project-mind begin*/
+    .project-mind-title h2 {
+        font-size: 18px;
+    }
+    /*project-mind end*/
+
+    /*footer begin*/
+    footer {
+        background-color: #f6f7fd;
+        padding: 25px 0;
+    }
+    footer h3{
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+    }
+    /*footer end*/
+}
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        color: #000!important;
+    }
+    .navbar-brand {
+        color: #000!important;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    .logo-company{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .navbar-brand{
+        color: black!important;
+    }
+    .navbar-nav {
+        position: absolute;
+        right: 0px;
+        top: 11.7vh;
+        background-color: #404BE1;
+        align-items: center;
+        width: 50%;
+        height: 90vh;
+        transform: translateX(100%);
+        transition: 1s ease-in-out;
+        opacity: 0;
+    }
+    .nav-link {
+        margin-top: 20px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+    opacity: 1;
+}
